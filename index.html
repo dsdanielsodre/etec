@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cadastro</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+
+  <body>
+
+    <div class="topo"></div>
+
+    <div class="formulario">
+
+      <form name="form_cadastro" action="#" method="POST">
+
+          <h1>CADASTRO</h1>
+          
+           <P>
+            
+             <LABEL>NOME:</LABEL>
+            <input type="text" name="text_nome">
+          </P>
+
+           <P>
+            
+             <LABEL>ENDEREÇO:</LABEL>
+            <input type="text" name="text_endereco">
+          </P>
+        
+           <P>
+            
+             <LABEL>ESTADO:</LABEL>
+          <select name="slc_estado">
+            
+          <option value="AC">Acre</option>
+          <option value="AM">Amazonas</option>
+          <option value="SP">São Paulo</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="RJ">Rio de Janeiro</option>
+
+          </select>
+            </P>
+
+            <p>
+              
+            <label>Cinema:</label> 
+            <input type="checkbox" value="cine" name="chk_cine">
+
+            </p>
+           
+            <p>
+              
+            <label>Teatro:</label>
+            <input type="checkbox" value="teatro" name="chk_teatro">
+
+            </p>
+
+            <p>
+              
+            <label>Literatura:</label>
+            <input type="checkbox" value="lit" name="chk_literatura">
+
+            </p>
+  <p>
+
+            <h3>Quão importante este formulário foi para você? Responda de 0-10.</h3>
+              
+            <input type="radio" name="rd_news" value="0">0
+            <input type="radio" name="rd_news" value="1">1
+            <input type="radio" name="rd_news" value="2">2
+            <input type="radio" name="rd_news" value="3">3
+            <input type="radio" name="rd_news" value="4">4
+            <input type="radio" name="rd_news" value="5">5
+            <input type="radio" name="rd_news" value="6">6
+            <input type="radio" name="rd_news" value="7">7
+            <input type="radio" name="rd_news" value="8">8
+            <input type="radio" name="rd_news" value="9">9
+            <input type="radio" name="rd_news" value="10">10
+            </p>
+
+
+
+            <p>
+              
+              <label>NESLETTER</label>
+              <br>
+              <input type="radio" name="rd_news" value="s">SIM
+              <input type="radio" name="rd_news" value="n">NÃO
+                        </p>
+
+            <p>
+              
+              <input type="submit" value="ENVIAR" onclick="valida()">
+            </p>
+
+
+             </form>
+    </div>
+
+  </body>
+
+</html>
